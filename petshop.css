@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.TOPO {    
+    height: 950px;
+    background-image: url(img/banner-topo.jpg);
+    background-size: cover;
+    img {
+        width: 30px;
+        padding-top: 200px;
+        padding-left: 50px;
+    }
+}
+
+.titulo {
+    margin: 100px auto;
+    height: 400px;
+    box-shadow: 0 8px 32px #939393;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.555);
+    width: 1260px;
+    text-align: center;
+    color: rgb(46, 2, 46);
+    h1 {
+        padding-top: 60px;
+        padding-bottom: 100px;
+        font-size: 70px;
+        font-weight: bold;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: rgb(46, 2, 46);
+        padding: 13px;
+        border-radius: 8px;
+        padding-right: 40px;
+        padding-left: 20px;
+    }
+    img {
+        width: 20px;
+        height: 20px;
+        padding-right: 20px;
+        position: absolute;
+        bottom: 125px;
+        right: 709px;
+    }
+}
+
+.p2 {
+    color: rgb(88, 5, 88);
+    font-size: 12px;
+    padding-top: 2px;
+    padding-left: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p1 {
+    padding-top: 300px;
+    color: rgb(88, 5, 88);
+    font-size: 30px;
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.SERVICOS {
+    padding-top: 150px;
+    text-align: center;
+    h2 {
+        color: rgb(46, 2, 46);
+        padding-bottom: 40px;
+    }
+    li {
+        margin: 0 auto;
+        color: rgb(46, 2, 46);
+        text-align: justify;
+        width: 680px;
+        padding-bottom: 20px;
+    }
+    img {
+        margin-top: 25px;
+        margin-bottom: 100px;
+        margin-left: 5px;
+        border-radius: 5px;
+        box-shadow: 0 4px 10px 5px #939393
+    }
+}
+
+.texto_grifadoroxo{
+    font-weight: bold;
+}
+
+.texto_italicobranco {
+    font-weight: bold;
+    font-style: italic;
+} 
+
+.FAIXA1, .FAIXA2 {
+    background-color: rgb(46, 2, 46);
+    color: white;
+    height: 400px;
+    h2 {
+        font-weight: normal;
+        text-align: center;
+        padding-top: 90px;
+        font-size: 30px;
+        padding-bottom: 40px;
+    }
+    img {
+        width: 40px;
+        padding-left: 40px;
+    }
+}
+
+.img3 {
+    margin-left: 650px;
+}
+
+.MARCAS {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+    h2 {
+        color: rgb(46, 2, 46);
+        padding-bottom: 40px;
+    }
+    img {
+        padding-left: 30px;
+    }
+}
+
+.ONDESTAMOS {
+    padding-top: 150px;
+    text-align: center;
+    padding-bottom: 100px;
+    color: rgb(46, 2, 46);
+    h2 {
+        padding-bottom: 40px;
+    }
+    p {
+        padding-bottom: 60px;
+    }
+    iframe {
+        width: 1000px;
+    }
+}
+
+.RODAPÉ {
+    background-color: rgb(46, 2, 46);
+    color: white;
+    h5 {
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
